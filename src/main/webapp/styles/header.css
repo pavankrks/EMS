@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+
+border-bottom: 2px solid black;
+}
+header .outer-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3f72af;
+
+  padding: 10px 20px 10px 20px;
+}
+
+.inner-div {
+  font-size: 1.5rem;
+}
+
+.inner-div img {
+  width: 35px;
+}
+.project-name {
+  font-weight: bold;
+  color: #eeeeee;
+}
+
+.log-in-out {
+  font-weight: bold;
+}
+.inner-div a {
+  background-color: #3f72af;
+  text-decoration: none;
+  color: #eeeeee;
+  cursor: pointer;
+}
+
+.inner-div a:hover {
+  opacity: 0.7;
+  transition: 0.1s;
+}
+
+.inner-div a:active {
+  opacity: 0.9;
+}
